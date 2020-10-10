@@ -7,14 +7,19 @@
 A fun little project using Spring Boot for my home-made services.
 
 - [OniiChan](#oniichan)
-  - [Why](#why)
-  - [Modules](#modules)
+	- [Why](#why)
+	- [Back-end](#back-end)
+		- [Modules](#modules)
+	- [Front-end](#front-end)
+		- [Modules](#modules-1)
 
 ## Why
 
 For the fun! And also because I bought the [oniichan.app](https://oniichan.app) domain name and now I have to make a use out of it... 
 
-## Modules
+## Back-end
+
+### Modules
 
 | Name   | Base Endpoint | Description                                |
 |--------|---------------|--------------------------------------------|
@@ -24,3 +29,11 @@ For the fun! And also because I bought the [oniichan.app](https://oniichan.app) 
 | Drive  | /upload       | A simple file sharing system               |
 | User   | /user         | User management                            |
 
+## Front-end
+
+### Modules
+
+| Name  | Subdomain | Description    |
+|-------|-----------|----------------|
+| Index | .         | Index          |
+| Auth  | auth.     | Authentication |
